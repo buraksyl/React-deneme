@@ -1,10 +1,8 @@
-import React, { Component } from "react";
-import * as ReactBootStrap  from "react-bootstrap"; 
+import React from "react";
 import Navi from './Navi'
 import Footer from './Footer'
 import { Media } from 'reactstrap';
-import  {Container,Row,Col} from 'reactstrap';
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import  {Container,Row} from 'reactstrap';
 import logo from './film1.jpg'
 import { Player } from 'video-react';
 import 'video-react/dist/video-react.css';

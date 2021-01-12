@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import * as ReactBootStrap  from "react-bootstrap"; 
+import React from "react";
 import Home from './Home';
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Detail from "./Detail";

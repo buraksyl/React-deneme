@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import * as ReactBootStrap  from "react-bootstrap"; 
+import React from "react";
 import Navi from './Navi'
 import Card from './Card'
 import List from './List'
@@ -7,7 +6,6 @@ import Pagi from './Pagi'
 import Carousel from './Carousel'
 import Footer from './Footer'
 import  {Container,Row,Col} from 'reactstrap';
-import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 function Home(){
     return (
